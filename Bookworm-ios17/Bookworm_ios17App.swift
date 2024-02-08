@@ -1,10 +1,4 @@
-//
-//  Bookworm_ios17App.swift
-//  Bookworm-ios17
-//
-//  Created by Alin RADU on 07.02.2024.
-//
-
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +7,6 @@ struct Bookworm_ios17App: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Book.self)
     }
 }

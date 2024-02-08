@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1843E4822B73FDE1009C69B0 /* SwiftDataBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843E4812B73FDE1009C69B0 /* SwiftDataBasics.swift */; };
+		1843E4842B73FFBC009C69B0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843E4832B73FFBC009C69B0 /* Book.swift */; };
+		1843E4862B740085009C69B0 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843E4852B740085009C69B0 /* AddBookView.swift */; };
 		185FAB222B73D68E0095F411 /* Bookworm_ios17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FAB212B73D68E0095F411 /* Bookworm_ios17App.swift */; };
 		185FAB242B73D68E0095F411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FAB232B73D68E0095F411 /* ContentView.swift */; };
 		185FAB262B73D68F0095F411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185FAB252B73D68F0095F411 /* Assets.xcassets */; };
 		185FAB292B73D68F0095F411 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185FAB282B73D68F0095F411 /* Preview Assets.xcassets */; };
+		18A4DA9E2B73DBD3002AF625 /* Component@Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4DA9D2B73DBD3002AF625 /* Component@Binding.swift */; };
+		18A4DAA12B73DC51002AF625 /* TextEditorBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4DAA02B73DC51002AF625 /* TextEditorBasics.swift */; };
+		18A4DAA32B73E7DC002AF625 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4DAA22B73E7DC002AF625 /* Student.swift */; };
+		18AF76E72B74C48800B7C86F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF76E62B74C48800B7C86F /* RatingView.swift */; };
+		18AF76E92B74CE4F00B7C86F /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF76E82B74CE4F00B7C86F /* EmojiRatingView.swift */; };
+		18AF76EB2B74D2DF00B7C86F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF76EA2B74D2DF00B7C86F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1843E4812B73FDE1009C69B0 /* SwiftDataBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataBasics.swift; sourceTree = "<group>"; };
+		1843E4832B73FFBC009C69B0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		1843E4852B740085009C69B0 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		185FAB1E2B73D68E0095F411 /* Bookworm-ios17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bookworm-ios17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185FAB212B73D68E0095F411 /* Bookworm_ios17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookworm_ios17App.swift; sourceTree = "<group>"; };
 		185FAB232B73D68E0095F411 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		185FAB252B73D68F0095F411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185FAB282B73D68F0095F411 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18A4DA9D2B73DBD3002AF625 /* Component@Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Component@Binding.swift"; sourceTree = "<group>"; };
+		18A4DAA02B73DC51002AF625 /* TextEditorBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBasics.swift; sourceTree = "<group>"; };
+		18A4DAA22B73E7DC002AF625 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		18AF76E62B74C48800B7C86F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		18AF76E82B74CE4F00B7C86F /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		18AF76EA2B74D2DF00B7C86F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,15 @@
 			children = (
 				185FAB212B73D68E0095F411 /* Bookworm_ios17App.swift */,
 				185FAB232B73D68E0095F411 /* ContentView.swift */,
+				1843E4852B740085009C69B0 /* AddBookView.swift */,
+				18AF76EA2B74D2DF00B7C86F /* DetailView.swift */,
+				18AF76E62B74C48800B7C86F /* RatingView.swift */,
+				18AF76E82B74CE4F00B7C86F /* EmojiRatingView.swift */,
+				1843E4832B73FFBC009C69B0 /* Book.swift */,
+				1843E4812B73FDE1009C69B0 /* SwiftDataBasics.swift */,
+				18A4DA9D2B73DBD3002AF625 /* Component@Binding.swift */,
+				18A4DAA02B73DC51002AF625 /* TextEditorBasics.swift */,
+				18A4DAA22B73E7DC002AF625 /* Student.swift */,
 				185FAB252B73D68F0095F411 /* Assets.xcassets */,
 				185FAB272B73D68F0095F411 /* Preview Content */,
 			);
@@ -137,7 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AF76E92B74CE4F00B7C86F /* EmojiRatingView.swift in Sources */,
 				185FAB242B73D68E0095F411 /* ContentView.swift in Sources */,
+				18A4DA9E2B73DBD3002AF625 /* Component@Binding.swift in Sources */,
+				1843E4842B73FFBC009C69B0 /* Book.swift in Sources */,
+				18AF76E72B74C48800B7C86F /* RatingView.swift in Sources */,
+				18AF76EB2B74D2DF00B7C86F /* DetailView.swift in Sources */,
+				1843E4862B740085009C69B0 /* AddBookView.swift in Sources */,
+				1843E4822B73FDE1009C69B0 /* SwiftDataBasics.swift in Sources */,
+				18A4DAA12B73DC51002AF625 /* TextEditorBasics.swift in Sources */,
+				18A4DAA32B73E7DC002AF625 /* Student.swift in Sources */,
 				185FAB222B73D68E0095F411 /* Bookworm_ios17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bookworm-ios17/Preview Content\"";
-				DEVELOPMENT_TEAM = VAW596AAWY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -285,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alin-radu.Bookworm-ios17.Bookworm-ios17";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alin-radu.CupcakeCorner-ios17.CupcakeCorner-ios17";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bookworm-ios17/Preview Content\"";
-				DEVELOPMENT_TEAM = VAW596AAWY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alin-radu.Bookworm-ios17.Bookworm-ios17";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alin-radu.CupcakeCorner-ios17.CupcakeCorner-ios17";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
